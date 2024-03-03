@@ -1,0 +1,31 @@
+button {
+    padding: 10px 20px;
+    border: 2px solid transparent; /* Borde inicialmente transparente */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: border-color 0.3s; /* Agregar transición para suavizar el cambio */
+}
+
+.instagram {
+    background-color: #C13584; /* Color característico de Instagram */
+    color: white;
+}
+
+.facebook {
+    background-color: #3b5998; /* Color característico de Facebook */
+    color: white;
+}
+
+.discord {
+    background-color: #6485cc;
+    color: white;
+}
+
+button:hover {
+    border-color: #000; /* Color del borde al pasar el cursor */
+}
+
+button:focus {
+    outline: none; /* Quitar el contorno predeterminado en el enfoque */
+}
